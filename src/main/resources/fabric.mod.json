@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "skylyrics",
+  "version": "${version}",
+  "name": "SkyLyrics",
+  "description": "Pops your own lyric files up in the sky, line by line.",
+  "authors": ["Jax"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.jax.skylyrics.SkyLyricsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
